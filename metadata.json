@@ -2,5 +2,5 @@
   "name": "LogoMaster 自动化工具",
   "description": "电商主图批量 Logo 自动叠加工具，支持根据尺寸自动匹配 Logo。",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

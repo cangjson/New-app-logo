@@ -479,8 +479,8 @@ export default function App() {
               </div>
 
               {/* 右侧队列栏 (高度与左侧对齐) */}
-              <div className="flex-1 flex flex-col h-full lg:min-h-[600px] lg:max-h-[800px]">
-                <div className="bg-white border border-[#141414] flex flex-col h-full shadow-[4px_4px_0px_0px_rgba(20,20,20,1)]">
+              <div className="flex-1 flex flex-col h-[500px] lg:h-[660px]">
+                <div className="bg-white border border-[#141414] flex flex-col h-full shadow-[4px_4px_0px_0px_rgba(20,20,20,1)] overflow-hidden">
                   <div className="bg-[#141414] text-[#E4E3E0] px-4 py-3 flex justify-between items-center shrink-0">
                     <div className="flex items-center gap-2">
                        <Layers size={14} />
